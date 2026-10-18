@@ -14,7 +14,8 @@ I am a former educator moving into cybersecurity, targeting IAM and security gov
 | WS-DC01 | Windows Server 2022, Active Directory domain controller for `billsec.local` |
 | ubuntu-lab | Ubuntu Server 24.04 LTS |
 | Network | VirtualBox NAT Network (VM-to-VM traffic), SSH through a port-forwarding rule |
-| Tools | PowerShell (Active Directory module), ADUC, OpenSSH, sudo, auth.log |
+| Cloud | Free Microsoft Entra ID tenant (Azure) |
+| Tools | PowerShell (Active Directory module), ADUC, OpenSSH, sudo, auth.log, Entra admin center |
 
 ## Projects
 
@@ -25,6 +26,7 @@ I am a former educator moving into cybersecurity, targeting IAM and security gov
 | 3 | [Linux identity, sudo scoping, and SSH keys](projects/03-linux-sudo-ssh.md) | Local users and groups, sudoers, key-based authentication, log review |
 | 4 | [Mock user access review](projects/04-mock-access-review.md) | Access recertification, privilege creep, remediation, evidence |
 | 5 | [Building and reaching the Linux server](projects/05-ubuntu-build-and-ssh-access.md) | Troubleshooting, NAT vs NAT Network, port forwarding |
+| 6 | [Access review in Microsoft Entra ID](projects/06-entra-id-access-review.md) | Entra ID users and groups, department attribute, cloud access review, remediation |
 
 ## Themes across the lab
 
@@ -37,7 +39,7 @@ I am a former educator moving into cybersecurity, targeting IAM and security gov
 - Join the Linux server to the `billsec.local` domain
 - Add a Windows 11 client machine
 - Add an AD-authenticated VPN
-- Microsoft Entra ID exercises
+- More Microsoft Entra ID exercises (multi-factor authentication, conditional access, built-in access reviews on a trial)
 - Security hardening pass (for example, key-only SSH)
 
 ## A note on security
